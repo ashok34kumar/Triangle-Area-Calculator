@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    font-family: Poppins;
+ }
+ div{
+    display: flex;
+    gap: 32px;
+    place-content: center;
+ }
+ input{
+    width:48px;
+    padding: 8px;
+    font-weight: 800;
+    text-align: center;
+ }
+ button{
+    width: 80px;
+ }
+ #area-ans{
+    border: 1px dashed black;
+    background-color: green;
+    color: white;
+    padding: 8px;
+    width: max-content;
+    height: max-content;
+ }
